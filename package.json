@@ -1,0 +1,33 @@
+{
+  "name": "backend-micro-code-challenge",
+  "version": "1.0.0",
+  "description": "The repository for the back-end code challenge",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johadi/backend-micro-code-challenge.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/johadi/backend-micro-code-challenge/issues"
+  },
+  "homepage": "https://github.com/johadi/backend-micro-code-challenge#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.0.0",
+    "express": "^4.17.1",
+    "express-rate-limit": "^5.0.0",
+    "express-validator": "^6.1.1",
+    "http-errors": "^1.7.3",
+    "morgan": "^1.9.1",
+    "typescript": "^3.5.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}

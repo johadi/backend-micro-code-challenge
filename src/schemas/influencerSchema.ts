@@ -95,7 +95,6 @@ export const getInfluencerSchema: any = {
     in: ['params'],
     errorMessage: 'ID is incorrect. It must be a number.',
     isInt: true,
-    // Sanitizers can go here as well
     toInt: true
   }
 }

@@ -5,6 +5,7 @@ import * as dotenv from 'dotenv';
 import * as cors from 'cors';
 import * as RateLimit from 'express-rate-limit';
 
+import routes from './routes/v1';
 
 dotenv.config();
 
@@ -21,6 +22,9 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cors());
 app.use(limiter);
+
+// V1 routes
+app.use('/api/v1', routes);
 
 // catch 404 and forward to error handler
 app.use(function(req: express.Request, res: express.Response, next: express.NextFunction) {
